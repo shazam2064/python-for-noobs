@@ -6,11 +6,11 @@
 #     printSadOraNoises()
 
 def sumOfTwoNums(n1, n2):
-    sum = num1 + num2
-    print("Sum:", sum)
+    sum = n1 + n2
+    return sum
 
 
-num1 = 5
-num2 = 3
+num1 = int(input("Enter num1: "))
+num2 = int(input("Enter num2: "))
 s = sumOfTwoNums(num1, num2)
 print(s)
