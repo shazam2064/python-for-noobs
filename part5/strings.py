@@ -28,8 +28,27 @@
 # else:
 #     print("no")
 
-s = "*Sad Ora Noises*"
-s1 = s[1:4]
-s2 = s[-4:-1]
-print(s1)
-print(s2)
+# s = "*Sad Ora Noises*"
+# s1 = s[1:4]
+# s2 = s[-4:-1]
+# print(s1)
+# print(s2)
+
+# s = "*Sad Ora Noises*"
+# s1 = s[:]
+# print(s1)
+
+# s = "*Sad Ora Noises*"
+# s1 = s[0:5:3]
+# print(s1)
+
+# s = "*Sad Ora Noises*"
+# s1 = s[::-1]
+# print(s1)
+
+# s = "jotaro"
+# print(s.capitalize())
+
+s = input("Enter string: ")
+for i in range(0, len(s)):
+    print(s[i])
