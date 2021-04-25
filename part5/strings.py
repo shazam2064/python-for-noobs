@@ -49,6 +49,25 @@
 # s = "jotaro"
 # print(s.capitalize())
 
+# s = input("Enter string: ")
+# for i in range(0, len(s)):
+#     print(s[i])
+
 s = input("Enter string: ")
-for i in range(0, len(s)):
-    print(s[i])
+ncount = 0
+acount = 0
+scount = 0
+
+for ch in s:
+    if ch.isdigit():
+        ncount = ncount + 1
+    elif ch.isalpha():
+        acount = acount + 1
+    elif ch.isspace():
+        scount = scount + 1
+    else:
+        continue
+
+print(ncount)
+print(acount)
+print(scount)
